@@ -15,7 +15,7 @@ if date.today().weekday() <=4:
     troughThresh = 10
     buyAmt = 100
     sellAmt = 100
-    newOrOld = 'old'
+    newOrOld = 'new'
     startingMoney = 10000
 
     #(yes/no) Calculate Slope and Var thresh?
