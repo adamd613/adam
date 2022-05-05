@@ -22,7 +22,7 @@ if date.today().weekday() <=4:
     slopeVarCalc = 'yes'
 
     #make sure to enter your path
-    excelOutputFolder = r'C:\Users\adamd\Desktop\Hobbies and Things\Algo Folder\dot exe\\'
+    excelOutputFolder = r'C:\Users\yourName\Desktop\\'
 
     #Create Clean Reset DF
     statsDFBlank = pd.DataFrame(columns = ['Symbol', 'LastPrice', 'Days', 'StDev', 'Avg', 'Slope', 'Std/Avg', '#ofPeaks', '#ofTroughs'])
